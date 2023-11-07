@@ -1,0 +1,385 @@
+<div class="w-full">
+  <section class="bg-cover bg-center bg-no-repeat" [ngStyle]="{'background': 'url(./assets/web.png)'}">
+    <div class="pt-8">
+        <div class="text-center">
+            <h1 class="font-bold text-xl md:text-3xl mb-3">
+              Looking for our <br />
+              Popular Executive Dairy?
+            </h1>
+            <button class="bg-transparent border px-3 py-1 md:px-6 md:py-2 border-black text-black">
+              Find stackist >
+            </button>
+          </div>
+      <swiper-container
+        class="w-[80%]"
+        navigation="true"
+        autoplay="true"
+        loop="true"
+      >
+        <swiper-slide class="flex justify-center items-center"
+          ><img src="../../../assets/hero.png" alt="" srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img src="../../../assets/hero.png" alt="" srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img src="../../../assets/hero.png" alt="" srcset=""
+        /></swiper-slide>
+      </swiper-container>
+    </div>
+    
+  </section>
+  <section class="w-full bg-[#F7F7F7] ">
+    <div class="py-5 lg:py-20 w-[80%] mx-auto ">
+      <div class="flex gap-5 items-center justify-center flex-wrap">
+        <div class="flex gap-3 items-center">
+          <label for="">Find your local newsagent</label>
+          <input
+            class="py-2 px-2 border-slate-300"
+            type="search"
+            value=""
+            placeholder="Search"
+          />
+        </div>
+        <div class="flex gap-3 items-center">
+          <label for="">By State</label>
+          <select name="" id="" class="w-36 py-2 px-2 border-slate-300">
+            <option value="">Select</option>
+          </select>
+        </div>
+        <div class="flex gap-3 items-center">
+          <label for="">Radius</label>
+          <select name="" id="" class="w-36 py-2 px-2 border-slate-300">
+            <option value="">Select</option>
+          </select>
+        </div>
+        <div>
+          <button class="bg-red-500 text-white px-6 py-2">Search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="w-full p-12 lg:p-24">
+      <div class="flex justify-between gap-10 flex-col lg:flex-row">
+        <div class="basis-[49%]">
+          <h3 class="text-lg lg:text-2xl font-bold mt-4">
+            News, Cards, Gifts, Books & More…
+          </h3>
+          <p class="text-base font-normal">
+            From stationery to lottery, greeting cards to giftware, your local
+            nextra™ or news extra™ newsagency is a world in a shop. Visit us
+            today to browse our extensive range of magazines, newspapers, toys,
+            cards, gifts, wrap, ribbon and bows. There’s something special for
+            every occasion. Take a little nextra™ time to see what extra you can
+            find…
+          </p>
+          <button class="bg-red-500 text-white px-6 py-2 mt-5">Find us</button>
+        </div>
+        <div class="bg-[#f7f7f7] py-2 px-10 basis-[49%]">
+          <div class="flex items-center justify-around">
+            <div class="basis-[49%]">
+              <h5 class="text-xl lg:text-3xl mb-2">Rewards</h5>
+              <p class="text-base">
+                Members enjoy special <br />
+                rewards, offers and discounts.
+              </p>
+              <button class="mt-5 flex items-center justify-center">Reward Login <img src="../../../assets/arrow-left.png" alt="" srcset=""></button>
+            </div>
+            <div class="basis-[49%]">
+              <img
+                class="h-60 w-64"
+                src="../../../assets/Group 37032.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="text-center py-6"><a href="">Rewards</a></div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center lg:grid lg:grid-cols-3 pt-10">
+        <div class="relative">
+          <img
+            class="h-96"
+            src="../../../assets/09880017-fde8-4304-b578-24e53f425b06 1.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="absolute bg-white bg-opacity-70 text-black w-full text-center py-2 bottom-0"
+          >
+            FRANCHISE WITH US
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            class="h-96"
+            src="../../../assets/Group 37034.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="absolute bg-white bg-opacity-70 text-black w-full text-center py-2 bottom-0"
+          >
+            FRANCHISE WITH US
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            class="h-96"
+            src="../../../assets/Rectangle 87.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="absolute bg-white bg-opacity-70 text-black w-full text-center py-2 bottom-0"
+          >
+            FRANCHISE WITH US
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative pt-20 bg-center bg-cover" [ngStyle]="{'background': 'url(./assets/web.png)'}">
+    <div class="w-[80%] mx-auto">
+      <div class="text-center mb-20">
+        <h5 class="text-xl lg:text-3xl font-bold">What's New at your Local Nextra</h5>
+        <p class="w-[80%] mx-auto">
+          Your local nextra™ and news extra™ newsagency stocks an assortment of
+          quality greeting cards, gifts for all occasions, diaries, magazines,
+          stationery and much much more.
+        </p>
+      </div>
+      <swiper-container
+        class="mySwiper"
+        navigation="true"
+        loop="true"
+        space-between="5"
+        slides-per-view="4"
+      >
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr1.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr2.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr3.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[120px]"
+            src="../../../assets/cr4.png"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr1.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr2.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[160px]"
+            src="../../../assets/cr3.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 h-[202px] w-[120px]"
+            src="../../../assets/cr4.png"
+            alt=""
+        /></swiper-slide>
+      </swiper-container>
+    </div>
+  </section>
+  <section class="py-10 lg:py-20">
+    <div class="w-[80%] mx-auto flex justify-center items-center flex-wrap lg:grid grid-cols-3 gap-6">
+      <div
+        class="bg-[#F7F7F7] text-center w-[320px] h-[292px] flex justify-center items-center flex-col gap-3"
+      >
+        <p>Check Latest Lotto Result</p>
+        <div>
+          <img
+            class="h-24"
+            src="../../../assets/4251bf4d-aa81-4c88-bcc7-d4817047d284 1.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <button class="bg-red-500 text-white px-6 py-2 mt-5">
+          Visits site
+        </button>
+      </div>
+      <div
+        class="bg-[#F7F7F7] text-center w-[320px] h-[292px] flex justify-center items-center flex-col gap-3"
+      >
+        <p>Check Latest Lotto Result</p>
+        <div>
+          <img
+            class="h-24"
+            src="../../../assets/image 17.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <button class="bg-red-500 text-white px-6 py-2 mt-5">
+          view result
+        </button>
+      </div>
+      <div
+        class="bg-[#F7F7F7] text-center w-[320px] h-[292px] flex justify-center items-center flex-col gap-3"
+      >
+        <p>Check Latest Lotto Result</p>
+        <div>
+          <img
+            class="h-24"
+            src="../../../assets/image 18.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <button class="bg-red-500 text-white px-6 py-2 mt-5">
+          Visits site
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="relative pb-20">
+    <div class="flex justify-center items-center gap-3 mb-8">
+       <div>
+        <img src="../../../assets/Frame 36981.png" alt="" srcset="">
+       </div>
+       <div>
+        <h6 class="text-lg font-bold">@nextra</h6>
+        <p>#giftsforalloccassions</p>
+       </div>
+    </div>
+    <div class="w-full">
+      <swiper-container
+        class="mySwiper1"
+        loop="true"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="6"
+        breakpoints="true"
+      >
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+            class="mb-5 w-72 h-72 py-5"
+            src="../../../assets/c0.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+          class="mb-5 w-72 h-72 py-5"
+            src="../../../assets/c1.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+          class="mb-5 w-72 h-72 py-5"
+            src="../../../assets/c2.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img class="mb-5 w-72 h-72 py-5" src="../../../assets/c3.png" alt=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img class="mb-5 w-72 h-72 py-5" src="../../../assets/c4.png"
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+          class="mb-5 w-72 h-72 py-5"
+            src="../../../assets/c5.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+        <swiper-slide class="flex justify-center items-center"
+          ><img
+          class="mb-5 w-72 h-72 py-5"
+            src="../../../assets/c0.png"
+            alt=""
+            srcset=""
+        /></swiper-slide>
+      </swiper-container>
+    </div>
+    <div class="flex-col sm:flex-row flex gap-2 justify-center items-center mt-3">
+        <button type="button" class="bg-transparent border px-6 py-2 border-black text-black text-sm flex items-center gap-1"><img class="w-4 h-4" src="../../../assets/instagram.png" alt=""> Follow on instagram</button>
+        <button type="button" class="bg-transparent border px-6 py-2 border-black text-black text-sm flex items-center gap-1"> <img class="w-4 h-4"  src="../../../assets/fi_facebook.png" alt=""> Follow on Facebook</button>
+    </div>
+  </section>
+  <section class="bg-[#f7f7f7]">
+    <div class="flex flex-col-reverse lg:flex-row items-center">
+    <div class="basis-[50%] px-10 py-3 lg:px-24">
+        <h6 class="text-lg font-medium mb-4">Contact us</h6>
+        <form action="">
+            <div class="flex items-center gap-5 mb-4">
+            <input class="w-full py-1 border-b focus:outline-none placeholder:text-black border-black bg-transparent" type="text" placeholder="Your name">
+            <input type="email" class="w-full py-1 bg-transparent placeholder:text-black focus:outline-none border-b border-black" placeholder="Your Email">
+        </div>
+        <input class="w-full py-1 bg-transparent mb-4 placeholder:text-black focus:outline-none border-b border-black" type="text" placeholder="Phone Number">
+        <input class="w-full py-1 bg-transparent mb-4 placeholder:text-black focus:outline-none border-b border-black" type="text" placeholder="Message">
+        <button type="button" class="bg-transparent border px-6 py-2 border-black text-black text-sm flex items-center gap-1">Submit</button>    
+    </form>
+    </div>
+    <div class="basis-[50%]"><img class="w-full h-full" src="../../../assets/Rectangle 80.png" alt="" srcset=""></div>
+</div>  
+</section>
+<section class="w-full">
+    <div class="py-20 w-[80%] mx-auto ">
+      <div class="flex gap-5 items-center justify-center flex-wrap">
+        <div class="flex gap-3 items-center">
+          <label for="">Find your local newsagent</label>
+          <input
+            class="py-2 px-2 border border-slate-300"
+            type="search"
+            value=""
+            placeholder="Search"
+          />
+        </div>
+        <div class="flex gap-3 items-center">
+          <label for="">By State</label>
+          <select name="" id="" class="w-36 py-2 px-2 border border-slate-300">
+            <option value="">Select</option>
+          </select>
+        </div>
+        <div class="flex gap-3 items-center">
+          <label for="">Radius</label>
+          <select name="" id="" class="w-36 py-2 px-2 border border-slate-300">
+            <option value="">Select</option>
+          </select>
+        </div>
+        <div>
+          <button class="bg-red-500 text-white px-6 py-2">Search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
